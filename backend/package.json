@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1537.0",
+    "serverless-offline": "^13.3.2"
+  },
+  "scripts": {
+    "dev": "sls offline",
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+  }
+}
